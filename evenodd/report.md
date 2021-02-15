@@ -1,4 +1,4 @@
-[Home of Lab Report](../http://code.gndec.ac.in/~2014049/LabReportPP/all/evenodd/report.htmllab.html)
+[Home of Lab Report](../lab.html)
 
 # Program Ex 01: Change it
 
@@ -6,16 +6,13 @@
 
 ```
 src/.
+├── input.html
 └── main.c
 
-0 directories, 1 file
+0 directories, 2 files
 ```
 
 ---
-
-#Flow Chart
-
-![.](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVERcbjEoW1N0YXJ0XSkgLS0-IDJbaW50IHhdXG4yIC0tPiB8c2NhbmZ8IDNbL3R5cGUgYW55IG51bWJlciB4L11cbjMgLS0-IDR7aWY8YnIvPiB4JTIgPT0gMH1cbjQgLS0-IDVbL1RoZSBudW1iZXIgaXMgZXZlbi9dXG40IC0tPiB8ZWxzZXwgNlsvVGhlIG51bWJlciBpcyBvZGQvXVxuNSAtLT4gN1tlbmRdXG42IC0tPiA3IiwibWVybWFpZCI6e30sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)
 
 
 # src/main.c
@@ -62,21 +59,27 @@ xmake
 
 ```
 
+---
+
+
 ## Execution
 ```
 xmake run
 
 Type the desired number:
-4 is an even number!
+32764 is an even number!
 
 ```
 
 ### Known Bugs and/or Errors:
 
-.
+List all the known limitations / bugs and / or errors of your program.
+
+After extensively testing your program, you should be aware of (nearly) every issue it has. How does your program handle bad input? How does your program handle edge cases? This section is a space for full-disclosure; what's wrong with your program?
 
 ### Lessons Learned:
 
-1. I learned the structure of basic if-else flowchart
-2. Other conditional statements could be used.
-3. Relational operator comes in use here.
+1. What went well
+1. What you would do differently next time
+1. How the exercise might be revised to make it clearer/more satisfying
+1. What the faculty members might have done differently to promote learning

@@ -6,7 +6,7 @@ int main(void)
 // declaring variables
    
 int i, j;
-i = 3;   //for specifically table of 3
+i = 13;   //for specifically table of 13
 
 for (j=0; j <= 20; j++)
 {

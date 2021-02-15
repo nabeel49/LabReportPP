@@ -52,33 +52,6 @@ printf(&quot;%d is an odd number!\n&quot;, x);
 [ 75%]: linking.release evenodd
 [100%]: build ok!
 </code></pre>
-<h1 id="index.dat">index.dat</h1>
-<pre><code>
-#include &lt;stdio.h&gt;   //header file
-
-int main(void)
-{
-  
-int x;               //declaring variables
-
-  printf(&quot;Type the desired number:\n&quot;);
-  scanf(&quot;%d&quot;, &amp;x);
-
-//using relational operator to compare 
-
-if ( x%2 == 0 )     
-{ 
-printf(&quot;%d is an even number!\n&quot;, x);
-}
-
-else 
-{
-printf(&quot;%d is an odd number!\n&quot;, x);
-}
-    return 0;
-}
-
-</code></pre>
 <hr />
 <h2 id="execution">Execution</h2>
 <pre><code>xmake run

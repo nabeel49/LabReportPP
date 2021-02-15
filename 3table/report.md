@@ -60,3 +60,5 @@ This program is tested and there are no errors or bugs detected so far
 ### Lessons Learned:
 
 1. Using arithmetic operator "*". 
+2. Increment operator "++" usage.
+3. 
